@@ -1,0 +1,101 @@
+"ITEMID","measure_name","CATEGORY","num_patients"
+227442,Potassium (serum),Labs,1726
+220615,Creatinine,Labs,1726
+227443,HCO3 (serum),Labs,1725
+227073,Anion gap,Labs,1725
+220645,Sodium (serum),Labs,1725
+220621,Glucose (serum),Labs,1725
+225624,BUN,Labs,1725
+220602,Chloride (serum),Labs,1725
+220545,Hematocrit (serum),Labs,1717
+220635,Magnesium,Labs,1707
+227457,Platelet Count,Labs,1706
+220546,WBC,Labs,1705
+220228,Hemoglobin,Labs,1704
+225677,Phosphorous,Labs,1703
+225625,Calcium non-ionized,Labs,1702
+220210,Respiratory Rate,Respiratory,1603
+220045,Heart Rate,Routine Vital Signs,1603
+224641,Alarms On,Alarms,1601
+220277,O2 saturation pulseoxymetry,Respiratory,1601
+220739,GCS - Eye Opening,Neurological,1598
+220046,Heart rate Alarm - High,Alarms,1598
+223770,O2 Saturation Pulseoxymetry Alarm - Low,Alarms,1598
+224168,Parameters Checked,Alarms,1598
+220047,Heart Rate Alarm - Low,Alarms,1597
+223769,O2 Saturation Pulseoxymetry Alarm - High,Alarms,1596
+223900,GCS - Verbal Response,Neurological,1595
+223901,GCS - Motor Response,Neurological,1595
+224161,Resp Alarm - High,Alarms,1594
+224162,Resp Alarm - Low,Alarms,1594
+829,Potassium (3.5-5.3),Chemistry,1592
+811,Glucose (70-105),Chemistry,1591
+224058,Braden Nutrition,Skin - Assessment,1587
+224055,Braden Moisture,Skin - Assessment,1587
+224057,Braden Mobility,Skin - Assessment,1587
+224054,Braden Sensory Perception,Skin - Assessment,1587
+224056,Braden Activity,Skin - Assessment,1586
+837,Sodium (135-148),Chemistry,1586
+224059,Braden Friction/Shear,Skin - Assessment,1586
+791,Creatinine (0-1.3),Chemistry,1585
+1535,Potassium,Chemistry,1584
+788,Chloride (100-112),Chemistry,1583
+1529,Glucose,Chemistry,1583
+781,BUN (6-20),Chemistry,1583
+813,Hematocrit,Hematology,1578
+1536,Sodium,Chemistry,1578
+787,Carbon Dioxide,Chemistry,1578
+1525,Creatinine,Chemistry,1577
+1523,Chloride,Chemistry,1575
+226253,SpO2 Desat Limit,Alarms,1571
+821,Magnesium (1.6-2.6),Chemistry,1562
+223761,Temperature Fahrenheit,Routine Vital Signs,1560
+861,"WBC (4-11,000)",Hematology,1558
+1127,"WBC   (4-11,000)",Hematology,1558
+828,Platelets,Hematology,1558
+814,Hemoglobin,Hematology,1556
+1532,Magnesium,Chemistry,1555
+227345,Gait/Transferring,Restraint/Support Systems,1555
+227344,IV/Saline lock,Restraint/Support Systems,1555
+227346,Mental status,Restraint/Support Systems,1554
+227343,Ambulatory aid,Restraint/Support Systems,1554
+227342,Secondary diagnosis,Restraint/Support Systems,1554
+833,RBC,Hematology,1554
+1542,WBC,Hematology,1550
+827,Phosphorous(2.7-4.5),Chemistry,1549
+227341,History of falling (within 3 mnths),Restraint/Support Systems,1543
+786,Calcium (8.4-10.2),Chemistry,1542
+1534,Phosphorous,Chemistry,1542
+220180,Non Invasive Blood Pressure diastolic,Routine Vital Signs,1536
+220179,Non Invasive Blood Pressure systolic,Routine Vital Signs,1536
+1522,Calcium,Chemistry,1535
+220181,Non Invasive Blood Pressure mean,Routine Vital Signs,1534
+223752,Non-Invasive Blood Pressure Alarm - Low,Alarms,1516
+223751,Non-Invasive Blood Pressure Alarm - High,Alarms,1515
+227465,Prothrombin time,Labs,1486
+227467,INR,Labs,1486
+227466,PTT,Labs,1473
+227688,Smoking Cessation Info Offered through BIDMC Inpatient Guide,Adm History/FHPA,1440
+225668,Lactic Acid,Labs,1432
+815,INR (2-4 ref. range),Coags,1351
+824,PT(11-13.5),Coags,1350
+1530,INR,Coags,1345
+825,PTT(22-35),Coags,1341
+1533,PTT,Coags,1335
+225103,Intravenous  / IV access prior to admission,Adm History/FHPA,1321
+223791,Pain Level,Pain/Sedation,1311
+818,Lactic Acid(0.5-2.0),Chemistry,1275
+1531,Lactic Acid,Chemistry,1269
+225690,Total Bilirubin,Labs,1126
+220644,ALT,Labs,1121
+220587,AST,Labs,1120
+807,Fingerstick Glucose,Chemistry,1114
+225612,Alkaline Phosphate,Labs,1109
+780,Arterial pH,ABG,1104
+1126,Art.pH,ABG,1104
+778,Arterial PaCO2,ABG,1101
+777,Arterial CO2(Calc),ABG,1101
+776,Arterial Base Excess,ABG,1101
+223830,PH (Arterial),Labs,1099
+779,Arterial PaO2,ABG,1099
+224828,Arterial Base Excess,Labs,1097

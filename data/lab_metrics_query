@@ -1,0 +1,42 @@
+WITH sepsis_cohort AS (
+    -- cohort
+    SELECT a.HADM_ID, a.ADMITTIME
+    FROM ADMISSIONS a
+    JOIN DIAGNOSES_ICD d ON a.HADM_ID = d.HADM_ID
+    JOIN PATIENTS p ON a.SUBJECT_ID = p.SUBJECT_ID
+    WHERE d.ICD9_CODE IN ('99592', '78552')
+    AND d.HADM_ID NOT IN (SELECT HADM_ID FROM DIAGNOSES_ICD WHERE ICD9_CODE = 'V667')
+    AND (TIMESTAMPDIFF(DAY, p.DOB, a.ADMITTIME) / 365.25) >= 18
+    GROUP BY a.HADM_ID, a.ADMITTIME
+),
+-- top 50 
+lab_ranking AS (
+    SELECT 
+        dl.LABEL AS feature_name,
+        le.ITEMID
+    FROM sepsis_cohort sc
+    JOIN LABEVENTS le ON sc.HADM_ID = le.HADM_ID
+    JOIN D_LABITEMS dl ON le.ITEMID = dl.ITEMID
+    WHERE le.CHARTTIME BETWEEN sc.ADMITTIME AND DATE_ADD(sc.ADMITTIME, INTERVAL 1 DAY)
+    AND dl.FLUID IN ('Blood', 'Urine')
+    GROUP BY dl.LABEL, le.ITEMID
+    ORDER BY COUNT(DISTINCT sc.HADM_ID) DESC
+    LIMIT 50 -- Top 40 analíticas
+)
+-- final select and computing metrics
+SELECT 
+    sc.HADM_ID,
+    lr.feature_name,
+    ROUND(AVG(le.VALUENUM), 2) AS mean_val,
+    MIN(le.VALUENUM) AS min_val,
+    MAX(le.VALUENUM) AS max_val
+FROM 
+    sepsis_cohort sc
+JOIN 
+    LABEVENTS le ON sc.HADM_ID = le.HADM_ID
+JOIN 
+    lab_ranking lr ON le.ITEMID = lr.ITEMID
+WHERE 
+    le.CHARTTIME BETWEEN sc.ADMITTIME AND DATE_ADD(sc.ADMITTIME, INTERVAL 1 DAY)
+GROUP BY 
+    sc.HADM_ID, lr.feature_name;

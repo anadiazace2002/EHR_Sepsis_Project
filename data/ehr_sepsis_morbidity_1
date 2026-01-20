@@ -1,0 +1,49 @@
+
+WITH sepsis_patients AS (
+    SELECT 
+        d.SUBJECT_ID, 
+        d.HADM_ID
+    FROM 
+        DIAGNOSES_ICD d
+    WHERE 
+        d.ICD9_CODE IN ('99592', '78552') -- 99592 (Severe Sepsis), 78552 (Septic Shock)
+    GROUP BY 
+        d.SUBJECT_ID, d.HADM_ID
+),
+exclusions AS (
+    SELECT 
+        d.HADM_ID 
+    FROM 
+        DIAGNOSES_ICD d
+    WHERE 
+        d.ICD9_CODE = 'V667' -- (paliative care)
+)
+SELECT 
+    p.SUBJECT_ID,
+    a.HADM_ID,
+    p.GENDER,
+    
+   
+    ROUND(TIMESTAMPDIFF(DAY, p.DOB, a.ADMITTIME) / 365.25, 2) AS age, -- we use only adult population
+    
+    a.HOSPITAL_EXPIRE_FLAG AS is_nonsurvivor, -- variable: morbodity 1 = non-survivor, 0 = survivor
+    
+    a.ADMITTIME,
+    a.DISCHTIME,
+    
+    ROUND(TIMESTAMPDIFF(DAY, a.ADMITTIME, a.DISCHTIME), 2) AS length_of_stay_days
+
+FROM 
+    ADMISSIONS a
+JOIN 
+    PATIENTS p ON a.SUBJECT_ID = p.SUBJECT_ID
+JOIN 
+    sepsis_patients sp ON a.HADM_ID = sp.HADM_ID
+LEFT JOIN 
+    exclusions ex ON a.HADM_ID = ex.HADM_ID
+WHERE 
+    ex.HADM_ID IS NULL 
+    AND (TIMESTAMPDIFF(DAY, p.DOB, a.ADMITTIME) / 365.25) >= 18
+ORDER BY 
+    a.HOSPITAL_EXPIRE_FLAG DESC;
+

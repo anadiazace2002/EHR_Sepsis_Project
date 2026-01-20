@@ -1,0 +1,72 @@
+WITH sepsis_cohort AS (
+    SELECT a.HADM_ID, a.ADMITTIME
+    FROM ADMISSIONS a
+    JOIN DIAGNOSES_ICD d ON a.HADM_ID = d.HADM_ID
+    WHERE d.ICD9_CODE IN ('99592', '78552')
+    GROUP BY a.HADM_ID, a.ADMITTIME
+)
+SELECT 
+    di.LABEL,
+    di.CATEGORY,
+    COUNT(DISTINCT ce.HADM_ID) as patient_count
+FROM 
+    sepsis_cohort sc
+JOIN 
+    CHARTEVENTS ce ON sc.HADM_ID = ce.HADM_ID
+JOIN 
+    D_ITEMS di ON ce.ITEMID = di.ITEMID
+WHERE 
+    ce.CHARTTIME BETWEEN sc.ADMITTIME AND DATE_ADD(sc.ADMITTIME, INTERVAL 1 DAY)
+    -- Excluimos lo obviamente administrativo para ayudar
+    AND di.CATEGORY NOT IN ('Alarm', 'General', 'Treatments', 'Care Plans', 'Administrative', 'ADT')
+GROUP BY 
+    di.LABEL, di.CATEGORY
+ORDER BY 
+    patient_count DESC
+LIMIT 40;
+
+
+--NOW WE COPY THE CODES THAT APPEAR AND PUT IT IN HE CONDITION OF THE JOIN
+
+
+WITH sepsis_cohort AS (
+    -- cohort
+    SELECT a.HADM_ID, a.ADMITTIME
+    FROM ADMISSIONS a
+    JOIN DIAGNOSES_ICD d ON a.HADM_ID = d.HADM_ID
+    JOIN PATIENTS p ON a.SUBJECT_ID = p.SUBJECT_ID
+    WHERE d.ICD9_CODE IN ('99592', '78552')
+    AND d.HADM_ID NOT IN (SELECT HADM_ID FROM DIAGNOSES_ICD WHERE ICD9_CODE = 'V667')
+    AND (TIMESTAMPDIFF(DAY, p.DOB, a.ADMITTIME) / 365.25) >= 18
+    GROUP BY a.HADM_ID, a.ADMITTIME
+)
+SELECT 
+    sc.HADM_ID,
+    di.LABEL AS feature_name,
+    --compute metrics
+    ROUND(AVG(ce.VALUENUM), 2) AS mean_val,
+    MIN(ce.VALUENUM) AS min_val,
+    MAX(ce.VALUENUM) AS max_val
+FROM 
+    sepsis_cohort sc
+JOIN 
+    CHARTEVENTS ce ON sc.HADM_ID = ce.HADM_ID
+JOIN 
+    D_ITEMS di ON ce.ITEMID = di.ITEMID
+WHERE 
+    ce.CHARTTIME BETWEEN sc.ADMITTIME AND DATE_ADD(sc.ADMITTIME, INTERVAL 1 DAY)
+    AND ce.VALUENUM IS NOT NULL
+    
+    -- top 50 relevant codes
+    AND ce.ITEMID IN (
+        220045, 220210, 220277, 220739, 223901, 223900, 223987, 223989, 829, 223986,
+        220048, 223988, 224003, 811, 224642, 223781, 837, 791, 223999, 1535,
+        788, 223985, 1529, 224004, 781, 1536, 787, 813, 1525, 1523,
+        223990, 223795, 226732, 224001, 821, 223761, 828, 861, 1127, 814,
+        227345, 224015, 227344, 1532, 227343, 833, 227342, 227346, 1542, 827
+    )
+
+GROUP BY 
+    sc.HADM_ID, di.LABEL
+ORDER BY 
+    sc.HADM_ID, di.LABEL;

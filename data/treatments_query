@@ -1,0 +1,48 @@
+WITH sepsis_cohort AS (
+    -- cohort
+    SELECT a.HADM_ID, a.ADMITTIME
+    FROM ADMISSIONS a
+    JOIN DIAGNOSES_ICD d ON a.HADM_ID = d.HADM_ID
+    JOIN PATIENTS p ON a.SUBJECT_ID = p.SUBJECT_ID
+    WHERE d.ICD9_CODE IN ('99592', '78552')
+    AND d.HADM_ID NOT IN (SELECT HADM_ID FROM DIAGNOSES_ICD WHERE ICD9_CODE = 'V667')
+    AND (TIMESTAMPDIFF(DAY, p.DOB, a.ADMITTIME) / 365.25) >= 18
+    GROUP BY a.HADM_ID, a.ADMITTIME
+),
+-- we search for norepinefrina, epinefrina, dopamine, fenilefrina, vasopresina
+vasos AS (
+    SELECT DISTINCT HADM_ID, 1 AS on_vasopressor
+    FROM INPUTEVENTS_MV
+    WHERE ITEMID IN (221906, 221289, 221662, 222315, 221749)
+    UNION
+    SELECT DISTINCT HADM_ID, 1 AS on_vasopressor
+    FROM INPUTEVENTS_CV
+    WHERE ITEMID IN (30047, 30044, 30043, 30051, 30120)
+),
+-- search for mecanic ventilation 
+vent AS (
+    SELECT DISTINCT HADM_ID, 1 AS on_ventilation
+    FROM PROCEDURES_ICD
+    WHERE ICD9_CODE IN ('9670', '9671', '9672') 
+),
+-- DIÁLISIS / RRT 
+rrt AS (
+    SELECT DISTINCT HADM_ID, 1 AS on_dialysis
+    FROM PROCEDURES_ICD
+    WHERE ICD9_CODE = '3995' -- Hemodiálisis
+)
+
+SELECT 
+    sc.HADM_ID,
+    -- chance nulls to 0
+    COALESCE(v.on_vasopressor, 0) AS vasopressor,
+    COALESCE(ve.on_ventilation, 0) AS mechanical_ventilation,
+    COALESCE(r.on_dialysis, 0) AS rrt_dialysis
+FROM 
+    sepsis_cohort sc
+LEFT JOIN 
+    vasos v ON sc.HADM_ID = v.HADM_ID
+LEFT JOIN 
+    vent ve ON sc.HADM_ID = ve.HADM_ID
+LEFT JOIN 
+    rrt r ON sc.HADM_ID = r.HADM_ID;

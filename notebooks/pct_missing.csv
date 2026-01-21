@@ -1,338 +1,337 @@
 variable,n_missing,pct_missing
-Vital_Manual BP Mean(calc)_max,3868,99.79360165118679
-Vital_Manual BP [Diastolic]_mean,3868,99.79360165118679
-Vital_Manual BP [Diastolic]_max,3868,99.79360165118679
-Vital_Manual BP Mean(calc)_min,3868,99.79360165118679
 Vital_Manual BP [Diastolic]_min,3868,99.79360165118679
+Vital_Manual BP [Diastolic]_mean,3868,99.79360165118679
 Vital_Manual BP Mean(calc)_mean,3868,99.79360165118679
+Vital_Manual BP Mean(calc)_min,3868,99.79360165118679
+Vital_Manual BP Mean(calc)_max,3868,99.79360165118679
+Vital_Manual BP [Diastolic]_max,3868,99.79360165118679
+Vital_Manual BP [Systolic]_max,3867,99.76780185758514
 Vital_Manual BP [Systolic]_mean,3867,99.76780185758514
 Vital_Manual BP [Systolic]_min,3867,99.76780185758514
-Vital_Manual BP [Systolic]_max,3867,99.76780185758514
-Vital_Arterial BP #2 [Systolic]_min,3865,99.71620227038184
-Vital_Arterial BP #2 [Systolic]_mean,3865,99.71620227038184
-Vital_Arterial BP Mean #2_max,3865,99.71620227038184
-Vital_Arterial BP #2 [Diastolic]_min,3865,99.71620227038184
 Vital_Arterial BP #2 [Diastolic]_max,3865,99.71620227038184
 Vital_Arterial BP Mean #2_min,3865,99.71620227038184
+Vital_Arterial BP #2 [Systolic]_min,3865,99.71620227038184
+Vital_Arterial BP #2 [Diastolic]_min,3865,99.71620227038184
 Vital_Arterial BP #2 [Diastolic]_mean,3865,99.71620227038184
-Vital_Arterial BP #2 [Systolic]_max,3865,99.71620227038184
+Vital_Arterial BP #2 [Systolic]_mean,3865,99.71620227038184
 Vital_Arterial BP Mean #2_mean,3865,99.71620227038184
+Vital_Arterial BP #2 [Systolic]_max,3865,99.71620227038184
+Vital_Arterial BP Mean #2_max,3865,99.71620227038184
+Vital_Temperature C_max,3779,97.49742002063984
 Vital_Temperature C_mean,3779,97.49742002063984
 Vital_Temperature C_min,3779,97.49742002063984
-Vital_Temperature C_max,3779,97.49742002063984
 Vital_Temperature Celsius_min,3754,96.85242518059856
-Vital_Temperature Celsius_max,3754,96.85242518059856
 Vital_Temperature Celsius_mean,3754,96.85242518059856
-Vital_ART BP mean_min,3740,96.49122807017544
+Vital_Temperature Celsius_max,3754,96.85242518059856
 Vital_ART BP mean_mean,3740,96.49122807017544
+Vital_ART BP mean_min,3740,96.49122807017544
 Vital_ART BP mean_max,3740,96.49122807017544
-Vital_Arterial Blood Pressure systolic_min,3181,82.06914344685242
-Vital_Arterial Blood Pressure diastolic_mean,3181,82.06914344685242
-Vital_Arterial Blood Pressure diastolic_min,3181,82.06914344685242
 Vital_Arterial Blood Pressure systolic_max,3181,82.06914344685242
 Vital_Arterial Blood Pressure diastolic_max,3181,82.06914344685242
+Vital_Arterial Blood Pressure systolic_min,3181,82.06914344685242
+Vital_Arterial Blood Pressure diastolic_min,3181,82.06914344685242
 Vital_Arterial Blood Pressure systolic_mean,3181,82.06914344685242
+Vital_Arterial Blood Pressure diastolic_mean,3181,82.06914344685242
+Vital_Arterial Blood Pressure mean_min,3151,81.29514963880288
 Vital_Arterial Blood Pressure mean_max,3151,81.29514963880288
 Vital_Arterial Blood Pressure mean_mean,3151,81.29514963880288
-Vital_Arterial Blood Pressure mean_min,3151,81.29514963880288
-Vital_Respiratory Rate (Total)_mean,3107,80.15995872033024
 Vital_Respiratory Rate (Total)_max,3107,80.15995872033024
+Vital_Respiratory Rate (Total)_mean,3107,80.15995872033024
 Vital_Respiratory Rate (Total)_min,3107,80.15995872033024
+Lab_Protein_mean,3066,79.10216718266254
 Lab_Protein_max,3066,79.10216718266254
 Lab_Protein_min,3066,79.10216718266254
-Lab_Protein_mean,3066,79.10216718266254
-Vital_Arterial BP Mean_mean,3025,78.04437564499484
 Vital_Arterial BP Mean_max,3025,78.04437564499484
 Vital_Arterial BP Mean_min,3025,78.04437564499484
+Vital_Arterial BP Mean_mean,3025,78.04437564499484
+Vital_Arterial BP [Diastolic]_min,3017,77.83797729618162
 Vital_Arterial BP [Diastolic]_mean,3017,77.83797729618162
 Vital_Arterial BP [Diastolic]_max,3017,77.83797729618162
-Vital_Arterial BP [Diastolic]_min,3017,77.83797729618162
 Vital_Arterial BP [Systolic]_min,3016,77.81217750257998
 Vital_Arterial BP [Systolic]_mean,3016,77.81217750257998
 Vital_Arterial BP [Systolic]_max,3016,77.81217750257998
 Vital_Resp Rate (Total)_mean,3013,77.73477812177502
-Vital_Resp Rate (Total)_max,3013,77.73477812177502
 Vital_Resp Rate (Total)_min,3013,77.73477812177502
+Vital_Resp Rate (Total)_max,3013,77.73477812177502
 Lab_Troponin T_mean,2438,62.899896800825594
 Lab_Troponin T_min,2438,62.899896800825594
 Lab_Troponin T_max,2438,62.899896800825594
-"Lab_Creatine Kinase, MB Isoenzyme_max",2431,62.71929824561403
 "Lab_Creatine Kinase, MB Isoenzyme_min",2431,62.71929824561403
+"Lab_Creatine Kinase, MB Isoenzyme_max",2431,62.71929824561403
 "Lab_Creatine Kinase, MB Isoenzyme_mean",2431,62.71929824561403
+Vital_NBP Mean_mean,2429,62.66769865841073
 Vital_NBP Mean_max,2429,62.66769865841073
 Vital_NBP Mean_min,2429,62.66769865841073
-Vital_NBP Mean_mean,2429,62.66769865841073
 Vital_NBP [Diastolic]_min,2426,62.59029927760578
 Vital_NBP [Diastolic]_max,2426,62.59029927760578
 Vital_NBP [Diastolic]_mean,2426,62.59029927760578
 Vital_NBP [Systolic]_mean,2423,62.512899896800825
-Vital_NBP [Systolic]_min,2423,62.512899896800825
 Vital_NBP [Systolic]_max,2423,62.512899896800825
-Vital_Temperature F_min,2344,60.474716202270386
+Vital_NBP [Systolic]_min,2423,62.512899896800825
 Vital_Temperature F_mean,2344,60.474716202270386
+Vital_Temperature F_min,2344,60.474716202270386
 Vital_Temperature F_max,2344,60.474716202270386
 Vital_Non Invasive Blood Pressure mean_mean,2342,60.42311661506707
 Vital_Non Invasive Blood Pressure mean_max,2342,60.42311661506707
 Vital_Non Invasive Blood Pressure mean_min,2342,60.42311661506707
-Vital_Non Invasive Blood Pressure diastolic_mean,2340,60.371517027863774
-Vital_Non Invasive Blood Pressure systolic_max,2340,60.371517027863774
 Vital_Non Invasive Blood Pressure systolic_mean,2340,60.371517027863774
 Vital_Non Invasive Blood Pressure systolic_min,2340,60.371517027863774
-Vital_Non Invasive Blood Pressure diastolic_min,2340,60.371517027863774
 Vital_Non Invasive Blood Pressure diastolic_max,2340,60.371517027863774
+Vital_Non Invasive Blood Pressure systolic_max,2340,60.371517027863774
+Vital_Non Invasive Blood Pressure diastolic_min,2340,60.371517027863774
+Vital_Non Invasive Blood Pressure diastolic_mean,2340,60.371517027863774
 Lab_Free Calcium_min,2339,60.34571723426213
-Lab_Free Calcium_mean,2339,60.34571723426213
 Lab_Free Calcium_max,2339,60.34571723426213
+Lab_Free Calcium_mean,2339,60.34571723426213
 Vital_Phosphorous(2.7-4.5)_max,2327,60.03611971104231
 Vital_Phosphorous(2.7-4.5)_min,2327,60.03611971104231
 Vital_Phosphorous(2.7-4.5)_mean,2327,60.03611971104231
 Vital_WBC_max,2326,60.010319917440654
 Vital_WBC_mean,2326,60.010319917440654
 Vital_WBC_min,2326,60.010319917440654
+Vital_Ambulatory aid_mean,2322,59.907120743034056
+Vital_Mental status_mean,2322,59.907120743034056
+Vital_Ambulatory aid_max,2322,59.907120743034056
 Vital_RBC_max,2322,59.907120743034056
 Vital_Secondary diagnosis_min,2322,59.907120743034056
 Vital_RBC_mean,2322,59.907120743034056
-Lab_Specific Gravity_min,2322,59.907120743034056
-Vital_Ambulatory aid_max,2322,59.907120743034056
-Lab_Specific Gravity_max,2322,59.907120743034056
-Vital_Mental status_min,2322,59.907120743034056
 Vital_Ambulatory aid_min,2322,59.907120743034056
-Vital_Mental status_max,2322,59.907120743034056
 Vital_Secondary diagnosis_max,2322,59.907120743034056
-Vital_RBC_min,2322,59.907120743034056
-Vital_Ambulatory aid_mean,2322,59.907120743034056
-Vital_Secondary diagnosis_mean,2322,59.907120743034056
 Lab_Specific Gravity_mean,2322,59.907120743034056
-Vital_Mental status_mean,2322,59.907120743034056
-Vital_Magnesium_mean,2321,59.88132094943241
-Vital_Gait/Transferring_max,2321,59.88132094943241
-Vital_Gait/Transferring_mean,2321,59.88132094943241
+Vital_Mental status_max,2322,59.907120743034056
+Vital_Mental status_min,2322,59.907120743034056
+Lab_Specific Gravity_min,2322,59.907120743034056
+Vital_Secondary diagnosis_mean,2322,59.907120743034056
+Lab_Specific Gravity_max,2322,59.907120743034056
+Vital_RBC_min,2322,59.907120743034056
 Vital_IV/Saline lock_max,2321,59.88132094943241
-Vital_Magnesium_min,2321,59.88132094943241
-Vital_Magnesium_max,2321,59.88132094943241
-Vital_IV/Saline lock_mean,2321,59.88132094943241
-Vital_IV/Saline lock_min,2321,59.88132094943241
+Vital_Gait/Transferring_max,2321,59.88132094943241
 Vital_Gait/Transferring_min,2321,59.88132094943241
-Vital_GCS Total_min,2320,59.85552115583075
-Vital_Hemoglobin_max,2320,59.85552115583075
+Vital_IV/Saline lock_min,2321,59.88132094943241
+Vital_Gait/Transferring_mean,2321,59.88132094943241
+Vital_Magnesium_min,2321,59.88132094943241
+Vital_IV/Saline lock_mean,2321,59.88132094943241
+Vital_Magnesium_mean,2321,59.88132094943241
+Vital_Magnesium_max,2321,59.88132094943241
 Vital_GCS Total_mean,2320,59.85552115583075
-Vital_Hemoglobin_min,2320,59.85552115583075
-Vital_Hemoglobin_mean,2320,59.85552115583075
 Vital_GCS Total_max,2320,59.85552115583075
-Vital_SpO2_mean,2319,59.82972136222911
+Vital_Hemoglobin_mean,2320,59.85552115583075
+Vital_GCS Total_min,2320,59.85552115583075
+Vital_Hemoglobin_min,2320,59.85552115583075
+Vital_Hemoglobin_max,2320,59.85552115583075
 Vital_SpO2_min,2319,59.82972136222911
+Vital_SpO2_mean,2319,59.82972136222911
 Vital_SpO2_max,2319,59.82972136222911
-Vital_Platelets_mean,2318,59.80392156862745
 Vital_Platelets_max,2318,59.80392156862745
 Vital_Platelets_min,2318,59.80392156862745
-"Vital_WBC (4-11,000)_mean",2318,59.80392156862745
 "Vital_WBC   (4-11,000)_mean",2318,59.80392156862745
-"Vital_WBC   (4-11,000)_min",2318,59.80392156862745
+"Vital_WBC (4-11,000)_min",2318,59.80392156862745
 "Vital_WBC   (4-11,000)_max",2318,59.80392156862745
 "Vital_WBC (4-11,000)_max",2318,59.80392156862745
-"Vital_WBC (4-11,000)_min",2318,59.80392156862745
-Vital_Temperature Fahrenheit_min,2316,59.75232198142415
-Vital_Temperature Fahrenheit_mean,2316,59.75232198142415
+"Vital_WBC (4-11,000)_mean",2318,59.80392156862745
+"Vital_WBC   (4-11,000)_min",2318,59.80392156862745
+Vital_Platelets_mean,2318,59.80392156862745
 Vital_Temperature Fahrenheit_max,2316,59.75232198142415
-Vital_Magnesium (1.6-2.6)_min,2314,59.700722394220854
+Vital_Temperature Fahrenheit_mean,2316,59.75232198142415
+Vital_Temperature Fahrenheit_min,2316,59.75232198142415
 Vital_Magnesium (1.6-2.6)_max,2314,59.700722394220854
+Vital_Magnesium (1.6-2.6)_min,2314,59.700722394220854
 Vital_Magnesium (1.6-2.6)_mean,2314,59.700722394220854
-Vital_Chloride_min,2301,59.365325077399376
 Vital_Chloride_mean,2301,59.365325077399376
+Vital_Chloride_min,2301,59.365325077399376
 Vital_Chloride_max,2301,59.365325077399376
-Vital_Creatinine_mean,2299,59.31372549019608
 Vital_Creatinine_max,2299,59.31372549019608
 Vital_Creatinine_min,2299,59.31372549019608
-Lab_Oxygen Saturation_mean,2298,59.28792569659442
-Vital_Hematocrit_min,2298,59.28792569659442
+Vital_Creatinine_mean,2299,59.31372549019608
 Vital_Hematocrit_max,2298,59.28792569659442
-Vital_Sodium_max,2298,59.28792569659442
 Vital_Carbon Dioxide_max,2298,59.28792569659442
-Vital_Sodium_min,2298,59.28792569659442
-Lab_Oxygen Saturation_min,2298,59.28792569659442
-Vital_Hematocrit_mean,2298,59.28792569659442
-Vital_Carbon Dioxide_mean,2298,59.28792569659442
-Lab_Oxygen Saturation_max,2298,59.28792569659442
 Vital_Sodium_mean,2298,59.28792569659442
+Lab_Oxygen Saturation_min,2298,59.28792569659442
+Lab_Oxygen Saturation_max,2298,59.28792569659442
+Vital_Hematocrit_min,2298,59.28792569659442
+Vital_Sodium_max,2298,59.28792569659442
+Vital_Sodium_min,2298,59.28792569659442
+Vital_Carbon Dioxide_mean,2298,59.28792569659442
+Vital_Hematocrit_mean,2298,59.28792569659442
+Lab_Oxygen Saturation_mean,2298,59.28792569659442
 Vital_Carbon Dioxide_min,2298,59.28792569659442
-Vital_Chloride (100-112)_max,2293,59.15892672858617
-Vital_Glucose_mean,2293,59.15892672858617
-Vital_Glucose_max,2293,59.15892672858617
-Vital_Chloride (100-112)_mean,2293,59.15892672858617
-Vital_Glucose_min,2293,59.15892672858617
-Vital_BUN (6-20)_mean,2293,59.15892672858617
-Vital_Chloride (100-112)_min,2293,59.15892672858617
 Vital_BUN (6-20)_max,2293,59.15892672858617
+Vital_Glucose_max,2293,59.15892672858617
+Vital_BUN (6-20)_mean,2293,59.15892672858617
+Vital_Chloride (100-112)_mean,2293,59.15892672858617
+Vital_Glucose_mean,2293,59.15892672858617
+Vital_Chloride (100-112)_min,2293,59.15892672858617
+Vital_Chloride (100-112)_max,2293,59.15892672858617
 Vital_BUN (6-20)_min,2293,59.15892672858617
+Vital_Glucose_min,2293,59.15892672858617
+Vital_Potassium_min,2292,59.133126934984524
 Vital_Potassium_mean,2292,59.133126934984524
 Vital_Potassium_max,2292,59.133126934984524
-Vital_Potassium_min,2292,59.133126934984524
-Vital_Creatinine (0-1.3)_max,2291,59.10732714138287
 Vital_Creatinine (0-1.3)_min,2291,59.10732714138287
 Vital_Creatinine (0-1.3)_mean,2291,59.10732714138287
-Vital_Sodium (135-148)_mean,2290,59.08152734778122
+Vital_Creatinine (0-1.3)_max,2291,59.10732714138287
 Vital_Sodium (135-148)_max,2290,59.08152734778122
 Vital_Sodium (135-148)_min,2290,59.08152734778122
-Vital_Glucose (70-105)_min,2285,58.952528379772964
+Vital_Sodium (135-148)_mean,2290,59.08152734778122
 Vital_Glucose (70-105)_max,2285,58.952528379772964
+Vital_Glucose (70-105)_min,2285,58.952528379772964
 Vital_Glucose (70-105)_mean,2285,58.952528379772964
+Vital_Potassium (3.5-5.3)_min,2284,58.92672858617131
 Vital_Potassium (3.5-5.3)_max,2284,58.92672858617131
 Vital_Potassium (3.5-5.3)_mean,2284,58.92672858617131
-Vital_Potassium (3.5-5.3)_min,2284,58.92672858617131
-Vital_GCS - Motor Response_mean,2281,58.84932920536635
-Vital_GCS - Motor Response_min,2281,58.84932920536635
 Vital_GCS - Verbal Response_mean,2281,58.84932920536635
-Vital_GCS - Verbal Response_min,2281,58.84932920536635
 Vital_GCS - Verbal Response_max,2281,58.84932920536635
+Vital_GCS - Verbal Response_min,2281,58.84932920536635
+Vital_GCS - Motor Response_min,2281,58.84932920536635
 Vital_GCS - Motor Response_max,2281,58.84932920536635
+Vital_GCS - Motor Response_mean,2281,58.84932920536635
 Vital_GCS - Eye Opening_max,2278,58.77192982456141
-Vital_GCS - Eye Opening_min,2278,58.77192982456141
 Vital_GCS - Eye Opening_mean,2278,58.77192982456141
+Vital_GCS - Eye Opening_min,2278,58.77192982456141
 Vital_O2 saturation pulseoxymetry_min,2275,58.694530443756456
 Vital_O2 saturation pulseoxymetry_max,2275,58.694530443756456
 Vital_O2 saturation pulseoxymetry_mean,2275,58.694530443756456
 Lab_Temperature_max,2211,57.04334365325078
 Lab_Temperature_mean,2211,57.04334365325078
 Lab_Temperature_min,2211,57.04334365325078
+Lab_Albumin_min,2057,53.07017543859649
 Lab_Albumin_mean,2057,53.07017543859649
 Lab_Albumin_max,2057,53.07017543859649
-Lab_Albumin_min,2057,53.07017543859649
-Lab_Lactate Dehydrogenase (LD)_max,2054,52.99277605779154
-Lab_Lactate Dehydrogenase (LD)_min,2054,52.99277605779154
 Lab_Lactate Dehydrogenase (LD)_mean,2054,52.99277605779154
-Lab_Creatine Kinase (CK)_max,2002,51.651186790505676
+Lab_Lactate Dehydrogenase (LD)_min,2054,52.99277605779154
+Lab_Lactate Dehydrogenase (LD)_max,2054,52.99277605779154
 Lab_Creatine Kinase (CK)_min,2002,51.651186790505676
+Lab_Creatine Kinase (CK)_max,2002,51.651186790505676
 Lab_Creatine Kinase (CK)_mean,2002,51.651186790505676
-Lab_Lymphocytes_mean,1839,47.44582043343653
 Lab_Neutrophils_mean,1839,47.44582043343653
-Lab_Neutrophils_min,1839,47.44582043343653
-Lab_Monocytes_min,1839,47.44582043343653
-Lab_Basophils_max,1839,47.44582043343653
-Lab_Eosinophils_mean,1839,47.44582043343653
-Lab_Lymphocytes_min,1839,47.44582043343653
+Lab_Lymphocytes_mean,1839,47.44582043343653
 Lab_Monocytes_mean,1839,47.44582043343653
-Lab_Eosinophils_min,1839,47.44582043343653
+Lab_Basophils_max,1839,47.44582043343653
 Lab_Basophils_min,1839,47.44582043343653
-Lab_Basophils_mean,1839,47.44582043343653
+Lab_Eosinophils_min,1839,47.44582043343653
 Lab_Eosinophils_max,1839,47.44582043343653
 Lab_Neutrophils_max,1839,47.44582043343653
-Lab_Lymphocytes_max,1839,47.44582043343653
+Lab_Basophils_mean,1839,47.44582043343653
+Lab_Lymphocytes_min,1839,47.44582043343653
+Lab_Neutrophils_min,1839,47.44582043343653
+Lab_Eosinophils_mean,1839,47.44582043343653
 Lab_Monocytes_max,1839,47.44582043343653
+Lab_Lymphocytes_max,1839,47.44582043343653
+Lab_Monocytes_min,1839,47.44582043343653
+Lab_Alkaline Phosphatase_max,1585,40.89267285861713
 Lab_Alkaline Phosphatase_min,1585,40.89267285861713
 Lab_Alkaline Phosphatase_mean,1585,40.89267285861713
-Lab_Alkaline Phosphatase_max,1585,40.89267285861713
-Lab_Alanine Aminotransferase (ALT)_max,1563,40.3250773993808
 Lab_Alanine Aminotransferase (ALT)_mean,1563,40.3250773993808
+Lab_Alanine Aminotransferase (ALT)_max,1563,40.3250773993808
 Lab_Alanine Aminotransferase (ALT)_min,1563,40.3250773993808
-Lab_Asparate Aminotransferase (AST)_min,1562,40.29927760577915
 Lab_Asparate Aminotransferase (AST)_max,1562,40.29927760577915
+Lab_Asparate Aminotransferase (AST)_min,1562,40.29927760577915
 Lab_Asparate Aminotransferase (AST)_mean,1562,40.29927760577915
+"Lab_Bilirubin, Total_max",1544,39.834881320949435
 "Lab_Bilirubin, Total_mean",1544,39.834881320949435
 "Lab_Bilirubin, Total_min",1544,39.834881320949435
-"Lab_Bilirubin, Total_max",1544,39.834881320949435
-Lab_pO2_max,1476,38.080495356037154
-Lab_Calculated Total CO2_mean,1476,38.080495356037154
-Lab_Calculated Total CO2_min,1476,38.080495356037154
-Lab_pCO2_min,1476,38.080495356037154
 Lab_Base Excess_min,1476,38.080495356037154
-Lab_pCO2_mean,1476,38.080495356037154
-Lab_Base Excess_mean,1476,38.080495356037154
-Lab_pO2_min,1476,38.080495356037154
-Lab_Calculated Total CO2_max,1476,38.080495356037154
 Lab_Base Excess_max,1476,38.080495356037154
+Lab_Calculated Total CO2_max,1476,38.080495356037154
+Lab_pO2_max,1476,38.080495356037154
+Lab_Base Excess_mean,1476,38.080495356037154
+Lab_Calculated Total CO2_mean,1476,38.080495356037154
 Lab_pCO2_max,1476,38.080495356037154
 Lab_pO2_mean,1476,38.080495356037154
+Lab_Calculated Total CO2_min,1476,38.080495356037154
+Lab_pCO2_mean,1476,38.080495356037154
+Lab_pCO2_min,1476,38.080495356037154
+Lab_pO2_min,1476,38.080495356037154
+Lab_Lactate_min,1165,30.056759545923633
 Lab_Lactate_mean,1165,30.056759545923633
 Lab_Lactate_max,1165,30.056759545923633
-Lab_Lactate_min,1165,30.056759545923633
+Lab_pH_mean,891,22.987616099071207
 Lab_pH_min,891,22.987616099071207
 Lab_pH_max,891,22.987616099071207
-Lab_pH_mean,891,22.987616099071207
-Lab_PTT_max,754,19.453044375644996
-Lab_PTT_min,754,19.453044375644996
 Lab_PTT_mean,754,19.453044375644996
+Lab_PTT_min,754,19.453044375644996
+Lab_PTT_max,754,19.453044375644996
 Vital_Temp_Unified_max,728,18.78224974200206
-Lab_PT_min,722,18.627450980392158
-Lab_INR(PT)_max,722,18.627450980392158
-Lab_PT_mean,722,18.627450980392158
 Lab_INR(PT)_min,722,18.627450980392158
+Lab_INR(PT)_max,722,18.627450980392158
 Lab_INR(PT)_mean,722,18.627450980392158
 Lab_PT_max,722,18.627450980392158
+Lab_PT_min,722,18.627450980392158
+Lab_PT_mean,722,18.627450980392158
 Vital_Respiratory Rate_mean,712,18.369453044375643
 Vital_Respiratory Rate_max,712,18.369453044375643
 Vital_Respiratory Rate_min,712,18.369453044375643
 Vital_Heart Rate_mean,710,18.317853457172344
 Vital_Heart Rate_max,710,18.317853457172344
 Vital_Heart Rate_min,710,18.317853457172344
+"Lab_Calcium, Total_max",203,5.23735810113519
 "Lab_Calcium, Total_mean",203,5.23735810113519
 "Lab_Calcium, Total_min",203,5.23735810113519
-"Lab_Calcium, Total_max",203,5.23735810113519
-Lab_Phosphate_min,202,5.21155830753354
 Lab_Phosphate_mean,202,5.21155830753354
 Lab_Phosphate_max,202,5.21155830753354
-Lab_Magnesium_mean,170,4.385964912280701
+Lab_Phosphate_min,202,5.21155830753354
 Lab_Magnesium_max,170,4.385964912280701
 Lab_Magnesium_min,170,4.385964912280701
-Lab_MCV_mean,131,3.3797729618163053
-Lab_MCH_mean,131,3.3797729618163053
-Lab_MCV_max,131,3.3797729618163053
-Lab_RDW_mean,131,3.3797729618163053
+Lab_Magnesium_mean,170,4.385964912280701
 Lab_MCH_max,131,3.3797729618163053
+Lab_RDW_min,131,3.3797729618163053
+Lab_MCV_mean,131,3.3797729618163053
+Lab_RDW_mean,131,3.3797729618163053
 Lab_Red Blood Cells_mean,131,3.3797729618163053
-Lab_RDW_max,131,3.3797729618163053
+Lab_MCH_mean,131,3.3797729618163053
+Lab_MCH_min,131,3.3797729618163053
 Lab_MCV_min,131,3.3797729618163053
 Lab_Red Blood Cells_max,131,3.3797729618163053
+Lab_RDW_max,131,3.3797729618163053
 Lab_Red Blood Cells_min,131,3.3797729618163053
-Lab_RDW_min,131,3.3797729618163053
-Lab_MCH_min,131,3.3797729618163053
-Lab_Hemoglobin_mean,130,3.3539731682146545
-Lab_Hemoglobin_max,130,3.3539731682146545
-Lab_Hemoglobin_min,130,3.3539731682146545
-Lab_MCHC_mean,130,3.3539731682146545
-Lab_MCHC_min,130,3.3539731682146545
+Lab_MCV_max,131,3.3797729618163053
 Lab_MCHC_max,130,3.3539731682146545
+Lab_MCHC_mean,130,3.3539731682146545
+Lab_Hemoglobin_max,130,3.3539731682146545
+Lab_Hemoglobin_mean,130,3.3539731682146545
+Lab_MCHC_min,130,3.3539731682146545
+Lab_Hemoglobin_min,130,3.3539731682146545
 Lab_White Blood Cells_max,125,3.2249742002063986
 Lab_White Blood Cells_min,125,3.2249742002063986
 Lab_White Blood Cells_mean,125,3.2249742002063986
 Lab_Platelet Count_min,124,3.199174406604747
-Lab_Platelet Count_mean,124,3.199174406604747
 Lab_Platelet Count_max,124,3.199174406604747
-Lab_Anion Gap_max,103,2.6573787409700724
-Lab_Anion Gap_mean,103,2.6573787409700724
+Lab_Platelet Count_mean,124,3.199174406604747
 Lab_Anion Gap_min,103,2.6573787409700724
-Lab_Glucose_mean,101,2.60577915376677
+Lab_Anion Gap_mean,103,2.6573787409700724
+Lab_Anion Gap_max,103,2.6573787409700724
 Lab_Glucose_max,101,2.60577915376677
 Lab_Glucose_min,101,2.60577915376677
-Lab_Bicarbonate_max,100,2.5799793601651184
+Lab_Glucose_mean,101,2.60577915376677
+Lab_Sodium_mean,100,2.5799793601651184
 Lab_Hematocrit_max,100,2.5799793601651184
 Lab_Hematocrit_mean,100,2.5799793601651184
-Lab_Sodium_max,100,2.5799793601651184
 Lab_Hematocrit_min,100,2.5799793601651184
-Lab_Bicarbonate_mean,100,2.5799793601651184
 Lab_Sodium_min,100,2.5799793601651184
-Lab_Sodium_mean,100,2.5799793601651184
+Lab_Sodium_max,100,2.5799793601651184
+Lab_Bicarbonate_max,100,2.5799793601651184
+Lab_Bicarbonate_mean,100,2.5799793601651184
 Lab_Bicarbonate_min,100,2.5799793601651184
 Lab_Chloride_mean,98,2.5283797729618165
-Lab_Chloride_max,98,2.5283797729618165
 Lab_Chloride_min,98,2.5283797729618165
-Lab_Urea Nitrogen_min,94,2.4251805985552117
-Lab_Potassium_max,94,2.4251805985552117
+Lab_Chloride_max,98,2.5283797729618165
 Lab_Creatinine_max,94,2.4251805985552117
+Lab_Urea Nitrogen_min,94,2.4251805985552117
 Lab_Potassium_min,94,2.4251805985552117
-Lab_Creatinine_min,94,2.4251805985552117
 Lab_Potassium_mean,94,2.4251805985552117
-Lab_Creatinine_mean,94,2.4251805985552117
+Lab_Potassium_max,94,2.4251805985552117
+Lab_Creatinine_min,94,2.4251805985552117
 Lab_Urea Nitrogen_max,94,2.4251805985552117
+Lab_Creatinine_mean,94,2.4251805985552117
 Lab_Urea Nitrogen_mean,94,2.4251805985552117
-ADMITTIME,0,0.0
+DISCHTIME,0,0.0
 is_male,0,0.0
-GENDER,0,0.0
 age,0,0.0
 is_nonsurvivor,0,0.0
-vasopressor,0,0.0
-DISCHTIME,0,0.0
-length_of_stay_days,0,0.0
+ADMITTIME,0,0.0
 mechanical_ventilation,0,0.0
+length_of_stay_days,0,0.0
+vasopressor,0,0.0
 rrt_dialysis,0,0.0
 HADM_ID,0,0.0
 SUBJECT_ID,0,0.0
